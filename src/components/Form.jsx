@@ -8,6 +8,8 @@ const Form = (props) => {
         setName(e.target.value)
     }     
 
+
+
     function handleSubmit(e) {
         e.preventDefault()
         props.addTask(name)
